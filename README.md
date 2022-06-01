@@ -9,29 +9,24 @@ Tutorial found here [How to make NFTs with On-Chain Metadata - Hardhat and JavaS
 ## Overview Info
 Chain: Polygon
 
-<!-- Network: Goerli -->
+Network: Mumbai
 
 Languages: Solidity, JavaScript
 
-<!-- Deployed to Goerli at:  -->
+Deployed to Mumbai at: 0xdE844613ecD39b611c785b5019C41DA4aF9D05e6
 
-<!-- Goerly Contract Link on Etherscan:  -->
-
-<!-- Replit repl:   -->
+Mumbai Contract Link on Mumbai Polygonscan: https://mumbai.polygonscan.com/address/0xdE844613ecD39b611c785b5019C41DA4aF9D05e6
 
 ## This tutorial covers:
 - Coding an on chain, dynamic NFT
-- A 
 - Getting Matic Tokens, connecting to Mumbai Test Net
-<!-- - Using Hardhat, Ehers.js -->
+- Using Hardhat
 
 ## Technology/Websites used:
 - [Alchemy](https://www.alchemy.com/)
 - [Polygon](https://polygon.technology/)
 - [Mumbai Test Net](https://docs.polygon.technology/docs/develop/network-details/network/)
 - [Hardhat](https://hardhat.org/)
-<!-- - [Ethers.js](https://docs.ethers.io/v5/) -->
-<!-- - [Replit](https://replit.com/) -->
 
 ## To Get Started
 1. Clone Repo
