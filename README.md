@@ -2,12 +2,12 @@
 
 Completed as part of Alchemy's ["Road to Web3"](https://www.youtube.com/playlist?list=PLMj8NvODurfEYLsuiClgikZBGDfhwdcXF)
 
-This was week 3, and the tutorial has users create a dynamic NFTs with on-chain metadata.
+This was week 3, and the tutorial has users create a dynamic NFTs with on-chain metadata. A primitive that can be used to build an on chain NFT gaming dApp.
 
 Tutorial found here [How to make NFTs with On-Chain Metadata - Hardhat and JavaScript](https://www.youtube.com/watch?v=8FJvY4zXvPE&list=PLMj8NvODurfEYLsuiClgikZBGDfhwdcXF&index=3)
 
 ## Overview Info
-Chain: Ethereum
+Chain: Polygon
 
 <!-- Network: Goerli -->
 
@@ -20,12 +20,41 @@ Languages: Solidity, JavaScript
 <!-- Replit repl:   -->
 
 ## This tutorial covers:
-- Coding a custom smart contract
+- Coding an on chain, dynamic NFT
+- A 
+- Getting Matic Tokens, connecting to Mumbai Test Net
 <!-- - Using Hardhat, Ehers.js -->
 
 ## Technology/Websites used:
 - [Alchemy](https://www.alchemy.com/)
-<!-- - [Goerli](https://goerli.net/) -->
-<!-- - [Hardhat](https://hardhat.org/) -->
+- [Polygon](https://polygon.technology/)
+- [Mumbai Test Net](https://docs.polygon.technology/docs/develop/network-details/network/)
+- [Hardhat](https://hardhat.org/)
 <!-- - [Ethers.js](https://docs.ethers.io/v5/) -->
 <!-- - [Replit](https://replit.com/) -->
+
+## To Get Started
+1. Clone Repo
+   ```sh
+   git clone https://github.com/MSBivens/road-to-web3-week3-nfts-with-onchain-metadata
+   ```
+2. Create package.json
+   ```sh
+   npm init -y
+   ```
+3. Install HardHat
+   ```sh
+   npm add hardhat
+   ```
+4. Initialize simple project
+   ```sh
+   npx hardhat
+   ```
+5. Install additional dependencies if needed using:
+   ```sh
+   npm install --save-dev hardhat@^2.9.3 @nomiclabs/hardhat-waffle@^2.0.0 ethereum-waffle@^3.0.0 chai@^4.2.0 @nomiclabs/hardhat-ethers@^2.0.0 ethers@^5.0.0
+   ```
+6. Add Open Zepplin contracts, JardHat Etherscan Package, dotenv packge
+   ```sh
+   npm add @openzeppelin/contracts @nomiclabs/hardhat-etherscan dotenv
+   ```
